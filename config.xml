@@ -2,7 +2,7 @@
 <widget id="com.megster.battery" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Battery Test</name>
     <description>
-        Cordova Bluetooth Plugin to read Battery Service
+        Cordova Bluetooth Plugin to read Battery Service - modified to scan BLE
     </description>
     <author href="https://github.com/don">
            Don Coleman
