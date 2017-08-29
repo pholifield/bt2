@@ -10,4 +10,7 @@
     <content src="index.html" />
     <access origin="*" />
     <preference name="orientation" value="portrait" />
+    <gap:platform name="android" />
+	<gap:plugin name="cordova-plugin-ble-central" source="npm" />
+	<preference name="phonegap-version" value="cli-6.1.0" />
 </widget>
