@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.megster.battery" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Battery Test</name>
+<widget id="com.exph.batt" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>JQueryTest</name>
     <description>
-        Cordova Bluetooth Plugin to read Battery Service - modified to scan BLE
+        A test for jquery
     </description>
-    <author href="https://github.com/don">
-           Don Coleman
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
     </author>
-    <preference name="orientation" value="portrait" />
-    <gap:platform name="android" />
-    <gap:plugin name="cordova-plugin-ble-central" source="npm" />
-    <!-- Allow links to example.com -->
-    <allow-navigation href="https://hulldisplay.000webhostapp.com/*" />
-    <!-- Allow links to web pages to open in a browser -->
-    <allow-intent href="https://hulldisplay.000webhostapp.com/*" />
+	
+	<gap:platform name="android" />
+	<preference name="phonegap-version" value="cli-6.1.0" />
+	<!-- Allow links to example.com -->
+	<allow-navigation href="https://hulldisplay.000webhostapp.com/*" />
+	<!-- Allow links to web pages to open in a browser -->
+        <allow-intent href="https://hulldisplay.000webhostapp.com/*" />
 	
     <content src="index.html" />
     <access origin="*" />
