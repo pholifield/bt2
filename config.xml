@@ -10,6 +10,10 @@
     <preference name="orientation" value="portrait" />
     <gap:platform name="android" />
     <gap:plugin name="cordova-plugin-ble-central" source="npm" />
+    <!-- Allow links to example.com -->
+    <allow-navigation href="https://hulldisplay.000webhostapp.com/*" />
+    <!-- Allow links to web pages to open in a browser -->
+    <allow-intent href="https://hulldisplay.000webhostapp.com/*" />
 	
     <content src="index.html" />
     <access origin="*" />
