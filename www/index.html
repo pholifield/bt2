@@ -9,12 +9,10 @@
     <script src="js/jquery.mobile-1.4.5.min.js"></script>
     <script src="js/jquery-3.2.1.js"></script>
 <script type="text/javascript">
-            $(document).ready(function() {
+            $( document ).ready(function() {
                 alert('Document loaded');
-                $.get('http://192.168.1.71:8080/phil/polly.php', function(data) {
-                $('.result').html(data);
-                alert('Load was performed.');
-                });
+                $.get('http://192.168.1.71:8080/phil/polly.php');
+                alert('Get was performed.');
             });
         </script>
 </head>
