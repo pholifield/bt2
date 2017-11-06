@@ -11,7 +11,7 @@
 <script>
 $(document).ready(function(){
     $("button").click(function(){
-        $.post("https://hulldisplay.000webhostapp.com/degdbp.php", {temperature: "567"},
+        $.get("http:192.168.1.71:8080/phil/polly.php", 
           function(data,status){
           alert("Data: " + data + "\nStatus: " + status);
         });
