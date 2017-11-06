@@ -10,13 +10,11 @@
     <script src="js/jquery.mobile.min.js"></script>
 <script>
 $(document).ready(function(){
-    $("button").click(function(){
+    //$("button").click(function(){
         $.get("http:192.168.1.71:8080/phil/polly.php", 
-          function(data,status){
-          alert("Data: " + data + "\nStatus: " + status);
-        });
+          function(data){alert("Data: " + data); });
         //return false;
-     });
+    // });
 });
 </script>
 </head>
