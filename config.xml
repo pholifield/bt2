@@ -13,7 +13,7 @@
 	<!-- Allow links to example.com -->
 	<allow-navigation href="http://192.168.1.71:8080/*" />
 	<!-- Allow links to web pages to open in a browser -->
-        <allow-intent href="https://hulldisplay.000webhostapp.com/*" />
+        <allow-intent href="http://192.168.1.71:8080/*" />
 	
     <content src="index.html" />
     <access origin="*" />
