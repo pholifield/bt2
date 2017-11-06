@@ -11,7 +11,7 @@
 <script type="text/javascript">
             $( document ).ready(function() {
                 alert('Document loaded');
-                $.get('http://192.168.1.71:8080/phil/polly.php');
+                $.get('http://192.168.1.71:8080/phil/polly.php', function(data){alert("Data Loaded: " + data); });
                 alert('Get was performed.');
             });
         </script>
