@@ -8,25 +8,19 @@
      <title>Test post</title>
     <script src="js/jquery.mobile-1.4.5.min.js"></script>
     <script src="js/jquery-3.2.1.js"></script>
-    <script type="text/javascript">
-        $( document ).bind( "mobileinit", function() {
-    // Make your jQuery Mobile framework configuration changes here!
-
-    $.mobile.allowCrossDomainPages = true;
-});
-</script>
-        
-<script type="text/javascript">
-            $( document ).ready(function() {
-                alert('Document loaded');
-                $.get('http://192.168.1.71:8080/phil/polly.php', function(data){alert("Data Loaded: " + data); });
-                //alert('Get was performed.');
-            });
-</script>
 </head>
 <body>
 <!--This is a comment. Comments are not displayed in the browser
 <button>Send an HTTP POST request to a page and get the result back</button> -->
+
+<p>This form will be submitted using the POST method:</p>
+
+<form action="http://192.168.1.71:8080/phil/pollypost.php" target="_blank" method="POST">
+  name:<br>
+  <input type="text" name="name" value="Mickey">
+  <br>
+  <input type="submit">
+</form>
 
 </body>
 </html>
