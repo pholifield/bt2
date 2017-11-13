@@ -16,16 +16,18 @@
 </script>
         
 <script type="text/javascript">
-    var  formData = "name=phil;  //Name value Pair
+    var  formData = {name: "Donald Duck"};  //Name value Pair
     $( document ).ready(function() {
     alert('Document loaded');
         $.ajax({
         type: 'POST',
         data: formData,
+        crossDomain: true,
+        cache: false,
         url: 'http://192.168.1.71:8080/phil/pollypost.php',
         success: function(data){
             console.log(data);
-            alert('Your comment was successfully added');
+            alert('Your comment was successfully added' + data);
         },
         error: function(){
             console.log(data);
