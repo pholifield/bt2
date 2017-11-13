@@ -27,7 +27,7 @@
         url: 'http://192.168.1.71:8080/phil/pollypost.php',
         success: function(data){
             console.log(data);
-            alert('Your comment was successfully added' + data);
+            alert('Your comment was successfully added: ' + data);
         },
         error: function(){
             console.log(data);
@@ -40,6 +40,6 @@
 <body>
 <!--This is a comment. Comments are not displayed in the browser
 <button>Send an HTTP POST request to a page and get the result back</button> -->
-
+Should have done post by this time
 </body>
 </html>
