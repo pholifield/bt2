@@ -12,6 +12,7 @@
 	<preference name="phonegap-version" value="cli-6.1.0" />
 	<!-- Allow links to example.com -->
 	<allow-navigation href="http://192.168.1.71:8080/*" />
+	<uses-permission android:name="android.permission.INTERNET" />
 	<!-- Allow links to web pages to open in a browser -->
         <allow-intent href="http://192.168.1.71:8080/*" />
 	
