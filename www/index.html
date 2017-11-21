@@ -10,10 +10,10 @@
     <script src="js/jquery-3.2.1.js"></script>
         
 <script type="text/javascript">
+    $.mobile.allowCrossDomainPages = true;
+    $.support.cors = true;
     var  formData = {name: "Donald Duck"};  //Name value Pair
     $( document ).ready(function() {
-        //$.mobile.allowCrossDomainPages = true;
-        //$.support.cors = true;
         alert('Document loaded');
         $.ajax({
         type: 'POST',
