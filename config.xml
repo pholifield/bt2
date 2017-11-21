@@ -9,7 +9,7 @@
     </author>
 	
 	<gap:platform name="android" />
-	<preference name="phonegap-version" value="cli-6.1.0" />
+	<preference name="phonegap-version" value="cli-7.0.1" />
 	<!-- Allow links to example.com -->
 	<allow-navigation href="http://192.168.1.71:8080/*" />
 	<!-- Allow links to web pages to open in a browser -->
