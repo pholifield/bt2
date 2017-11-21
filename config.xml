@@ -9,7 +9,8 @@
     </author>
     <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
     <allow-navigation href="http://*/*" />
+    <allow-intent href="http://*/*" />
     <platform name="android" />		
     <content src="index.html" />
-    <access origin="*" />
+    <access origin="*" subdomains="true" />
 </widget>
