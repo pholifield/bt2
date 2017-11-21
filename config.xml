@@ -1,19 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.exph.batt" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.euxton.jqtest" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>JQueryTest</name>
     <description>
         A test for jquery
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
+    <author email="phil@euxton.com" href="http://euxton.com">
         PhoneGap Team
     </author>
-	
-	<gap:platform name="android" />
-	<!-- Allow links to example.com -->
-	<allow-navigation href="http://192.168.1.71:8080/*" />
-	<!-- Allow links to web pages to open in a browser -->
-        <allow-intent href="http://192.168.1.71:8080/*" />
-	
+    <allow-navigation href="http://192.168.1.71/*" />
+    <platform name="android" />		
     <content src="index.html" />
     <access origin="*" />
 </widget>
